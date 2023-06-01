@@ -29,6 +29,7 @@ class ResultCell: UITableViewCell {
         awayTeamLogo.tintColor = UIColor.colorFromHexString(fixture.awayTeam.logo)
         awayTeamName.text = fixture.awayTeam.name
         awayTeamScore.text = "\(fixture.awayGoals)"
+        // determine which team is winner and show score with green color
         if !fixture.isDraw {
             fixture.isHomeTeamWinner ? (homeTeamScore.textColor = .green) : (awayTeamScore.textColor = .green)
         }

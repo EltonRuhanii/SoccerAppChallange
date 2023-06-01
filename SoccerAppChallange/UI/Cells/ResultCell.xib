@@ -32,26 +32,26 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" H" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RXy-75-cSq">
-                        <rect key="frame" x="309.66666666666669" y="21" width="20" height="55"/>
-                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
+                        <rect key="frame" x="312.66666666666669" y="21" width="17" height="55"/>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VHa-Oa-B8g">
-                        <rect key="frame" x="357.33333333333331" y="10" width="14.333333333333314" height="77"/>
-                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
+                        <rect key="frame" x="357.33333333333331" y="10" width="12" height="77"/>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text=" Home Team" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dcR-nO-4l4">
-                        <rect key="frame" x="76.999999999999986" y="10" width="212.66666666666663" height="77"/>
-                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
+                        <rect key="frame" x="76.999999999999986" y="10" width="215.66666666666663" height="77"/>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text=" Away Team" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RHy-DF-8by">
-                        <rect key="frame" x="391.66666666666669" y="10" width="218.33333333333331" height="77"/>
-                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
+                        <rect key="frame" x="389.33333333333331" y="10" width="220.66666666666669" height="77"/>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>

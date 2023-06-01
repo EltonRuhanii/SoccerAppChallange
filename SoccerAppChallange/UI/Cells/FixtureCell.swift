@@ -15,7 +15,6 @@ class FixtureCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
     
     func set(fixture: Fixture) {

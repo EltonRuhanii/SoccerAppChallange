@@ -27,6 +27,7 @@
 		5D86E8EB2A27E115004A3B7B /* NameGeneratorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86E8EA2A27E115004A3B7B /* NameGeneratorHelper.swift */; };
 		5D86E8EF2A280D02004A3B7B /* ColorGeneratorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86E8EE2A280D02004A3B7B /* ColorGeneratorHelper.swift */; };
 		5D86E8F12A280D4C004A3B7B /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86E8F02A280D4C004A3B7B /* UIColor+Hex.swift */; };
+		5D86E8F42A283014004A3B7B /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86E8F32A283014004A3B7B /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		5D86E8EA2A27E115004A3B7B /* NameGeneratorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameGeneratorHelper.swift; sourceTree = "<group>"; };
 		5D86E8EE2A280D02004A3B7B /* ColorGeneratorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGeneratorHelper.swift; sourceTree = "<group>"; };
 		5D86E8F02A280D4C004A3B7B /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		5D86E8F32A283014004A3B7B /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 				5D86E8E82A27DE76004A3B7B /* LeagueResultsViewController.swift */,
 				5D86E8D32A27D066004A3B7B /* FixturesViewController.swift */,
 				5D86E8E62A27DD38004A3B7B /* FixtureResultsViewController.swift */,
+				5D86E8F32A283014004A3B7B /* ResultViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 				5D1E5F092A27BCDB00BC4233 /* LeagueManager.swift in Sources */,
 				5D86E8D82A27D178004A3B7B /* TeamCell.swift in Sources */,
 				5D86E8E92A27DE76004A3B7B /* LeagueResultsViewController.swift in Sources */,
+				5D86E8F42A283014004A3B7B /* ResultViewController.swift in Sources */,
 				5D1E5F0B2A27C7A300BC4233 /* Fixture.swift in Sources */,
 				5D1E5EEA2A27B29000BC4233 /* AppDelegate.swift in Sources */,
 				5D86E8F12A280D4C004A3B7B /* UIColor+Hex.swift in Sources */,

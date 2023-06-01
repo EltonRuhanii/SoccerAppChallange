@@ -22,7 +22,6 @@ class Fixture {
             self.awayGoals = awayGoals
             self.winner = winner
             
-            // Determine if the fixture is a draw based on the goal scores
             isDraw = homeGoals == awayGoals
         }
 }

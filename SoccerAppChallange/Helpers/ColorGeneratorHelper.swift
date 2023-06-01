@@ -7,6 +7,7 @@
 
 import Foundation
 
+// This function will generate a random Hex Color, which will be used to change color of team logo's, on random order.
 class ColorGeneratorHelper {
     class func generateRandomHexColor() -> String {
         // Generate random RGB values between 0 and 255

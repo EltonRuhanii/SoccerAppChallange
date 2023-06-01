@@ -8,11 +8,13 @@
 import UIKit
 
 class FixturesViewController: UIViewController {
+    // MARK: PROPERTIES
     @IBOutlet weak var tableView: UITableView!
     
     private let fixtureCellIdentifier = "FixtureCell"
     private let leagueManager = LeagueManager.currentLeague
     
+    // MARK: - BODY
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.hidesBackButton = true
@@ -44,11 +46,10 @@ extension FixturesViewController:  UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: fixtureCellIdentifier,
                                                  for: indexPath) as! FixtureCell
+        
         let fixture = leagueManager.fixtures[indexPath.row]
         cell.set(fixture: fixture)
-        
+
         return cell
     }
-    
-    
 }

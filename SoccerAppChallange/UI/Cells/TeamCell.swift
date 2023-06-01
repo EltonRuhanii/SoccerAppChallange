@@ -17,7 +17,7 @@ class TeamCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
     }
-
+    
     func set(team: Team, index: Int) {
         teamRanking.text = "\(index)"
         teamName.text = team.name

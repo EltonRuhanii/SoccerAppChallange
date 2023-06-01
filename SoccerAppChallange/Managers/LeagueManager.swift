@@ -8,6 +8,7 @@
 import Foundation
 
 class LeagueManager {
+    // MARK: PROPERTIES
     var teams: [Team] = []
     var fixtures: [Fixture] = []
     var fixturesResults: [Fixture] = []
@@ -16,6 +17,7 @@ class LeagueManager {
     
     private init() { }
     
+    // MARK: - FUNCTIONS
     func generateTeams(count: Int) {
         teams = []
         fixtures = []
@@ -50,7 +52,8 @@ class LeagueManager {
             }
     }
     
-    
+    /// Result generator
+    /// - This function will generate a random score for each team and detrimne the winner. Also will give winner team 3 points, if its a draw will give both teams 1 points, and loser gets 0 points.
     func generateResults(completion: @escaping ()->Void) {
         for fixture in fixtures {
             let homeGoals = Int.random(in: 0...5)

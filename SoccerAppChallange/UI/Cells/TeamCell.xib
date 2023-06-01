@@ -24,7 +24,7 @@
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Team Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZwB-Qt-7lX">
                         <rect key="frame" x="91" y="10" width="159" height="70"/>
-                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
@@ -33,7 +33,7 @@
                         <constraints>
                             <constraint firstAttribute="width" constant="80" id="dXE-9J-mPu"/>
                         </constraints>
-                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
@@ -51,7 +51,7 @@
                         <constraints>
                             <constraint firstAttribute="width" constant="40" id="Tte-3C-1AS"/>
                         </constraints>
-                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>

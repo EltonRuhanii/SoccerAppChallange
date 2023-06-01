@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="TeamCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="TeamCell" rowHeight="90" id="KGk-i7-Jjw" customClass="TeamCell" customModule="SoccerAppChallange" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="400" height="90"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="sif-89-3lD">
+                        <rect key="frame" x="31" y="22" width="50" height="47"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="sif-89-3lD" secondAttribute="height" multiplier="1:1" id="UoG-e4-oyY"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Team Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZwB-Qt-7lX">
+                        <rect key="frame" x="91" y="10" width="159" height="70"/>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100:100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QWs-eU-B47">
+                        <rect key="frame" x="260" y="10" width="80" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="dXE-9J-mPu"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BdT-n4-boR">
+                        <rect key="frame" x="0.0" y="10" width="21" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="21" id="ZfF-5b-F0O"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QUi-9R-Nhc">
+                        <rect key="frame" x="350" y="10" width="40" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="Tte-3C-1AS"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="sif-89-3lD" secondAttribute="bottom" constant="20" id="18U-1J-lSB"/>
+                    <constraint firstItem="BdT-n4-boR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="6f9-vO-t3e"/>
+                    <constraint firstAttribute="bottom" secondItem="QWs-eU-B47" secondAttribute="bottom" constant="10" id="FH0-e6-Rb4"/>
+                    <constraint firstItem="BdT-n4-boR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="FXU-UK-sJz"/>
+                    <constraint firstItem="ZwB-Qt-7lX" firstAttribute="leading" secondItem="sif-89-3lD" secondAttribute="trailing" constant="10" id="HYG-Dj-pXC"/>
+                    <constraint firstAttribute="bottom" secondItem="BdT-n4-boR" secondAttribute="bottom" constant="10" id="Jra-TQ-KLB"/>
+                    <constraint firstItem="sif-89-3lD" firstAttribute="leading" secondItem="BdT-n4-boR" secondAttribute="trailing" constant="10" id="Qpm-HD-yTM"/>
+                    <constraint firstItem="QWs-eU-B47" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="RA7-ur-h27"/>
+                    <constraint firstItem="ZwB-Qt-7lX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="WRc-yd-LXr"/>
+                    <constraint firstItem="sif-89-3lD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="YfP-aL-Nvq"/>
+                    <constraint firstItem="QUi-9R-Nhc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="dCE-Vi-idr"/>
+                    <constraint firstAttribute="bottom" secondItem="QUi-9R-Nhc" secondAttribute="bottom" constant="10" id="eud-4Z-z2q"/>
+                    <constraint firstItem="QWs-eU-B47" firstAttribute="leading" secondItem="ZwB-Qt-7lX" secondAttribute="trailing" constant="10" id="lD5-z6-pvq"/>
+                    <constraint firstItem="QUi-9R-Nhc" firstAttribute="leading" secondItem="QWs-eU-B47" secondAttribute="trailing" constant="10" id="myZ-Gn-1AM"/>
+                    <constraint firstAttribute="bottom" secondItem="ZwB-Qt-7lX" secondAttribute="bottom" constant="10" id="nMT-E0-8eE"/>
+                    <constraint firstAttribute="trailing" secondItem="QUi-9R-Nhc" secondAttribute="trailing" constant="10" id="pho-2i-UGl"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="teamGoalDifference" destination="QWs-eU-B47" id="Nnf-ry-4eG"/>
+                <outlet property="teamLogo" destination="sif-89-3lD" id="dCh-Cd-ThC"/>
+                <outlet property="teamName" destination="ZwB-Qt-7lX" id="bL4-Gn-0OB"/>
+                <outlet property="teamPoints" destination="QUi-9R-Nhc" id="Zgj-aC-eVN"/>
+                <outlet property="teamRanking" destination="BdT-n4-boR" id="0b9-r9-dwS"/>
+            </connections>
+            <point key="canvasLocation" x="116.03053435114504" y="36.619718309859159"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="heart.fill" catalog="system" width="128" height="107"/>
+    </resources>
+</document>

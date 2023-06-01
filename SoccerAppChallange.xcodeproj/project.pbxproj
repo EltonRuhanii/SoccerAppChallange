@@ -9,21 +9,49 @@
 /* Begin PBXBuildFile section */
 		5D1E5EEA2A27B29000BC4233 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1E5EE92A27B29000BC4233 /* AppDelegate.swift */; };
 		5D1E5EEC2A27B29000BC4233 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1E5EEB2A27B29000BC4233 /* SceneDelegate.swift */; };
-		5D1E5EEE2A27B29000BC4233 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1E5EED2A27B29000BC4233 /* ViewController.swift */; };
 		5D1E5EF12A27B29000BC4233 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D1E5EEF2A27B29000BC4233 /* Main.storyboard */; };
 		5D1E5EF32A27B29300BC4233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D1E5EF22A27B29300BC4233 /* Assets.xcassets */; };
 		5D1E5EF62A27B29300BC4233 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D1E5EF42A27B29300BC4233 /* LaunchScreen.storyboard */; };
+		5D1E5F012A27B32400BC4233 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1E5F002A27B32400BC4233 /* Team.swift */; };
+		5D1E5F092A27BCDB00BC4233 /* LeagueManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1E5F082A27BCDB00BC4233 /* LeagueManager.swift */; };
+		5D1E5F0B2A27C7A300BC4233 /* Fixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1E5F0A2A27C7A300BC4233 /* Fixture.swift */; };
+		5D86E8D42A27D066004A3B7B /* FixturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86E8D32A27D066004A3B7B /* FixturesViewController.swift */; };
+		5D86E8D82A27D178004A3B7B /* TeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86E8D62A27D178004A3B7B /* TeamCell.swift */; };
+		5D86E8D92A27D178004A3B7B /* TeamCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D86E8D72A27D178004A3B7B /* TeamCell.xib */; };
+		5D86E8DC2A27D274004A3B7B /* FixtureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86E8DA2A27D274004A3B7B /* FixtureCell.swift */; };
+		5D86E8DD2A27D274004A3B7B /* FixtureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D86E8DB2A27D274004A3B7B /* FixtureCell.xib */; };
+		5D86E8E02A27D4E7004A3B7B /* ResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86E8DE2A27D4E7004A3B7B /* ResultCell.swift */; };
+		5D86E8E12A27D4E7004A3B7B /* ResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D86E8DF2A27D4E7004A3B7B /* ResultCell.xib */; };
+		5D86E8E72A27DD38004A3B7B /* FixtureResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86E8E62A27DD38004A3B7B /* FixtureResultsViewController.swift */; };
+		5D86E8E92A27DE76004A3B7B /* LeagueResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86E8E82A27DE76004A3B7B /* LeagueResultsViewController.swift */; };
+		5D86E8EB2A27E115004A3B7B /* NameGeneratorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86E8EA2A27E115004A3B7B /* NameGeneratorHelper.swift */; };
+		5D86E8EF2A280D02004A3B7B /* ColorGeneratorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86E8EE2A280D02004A3B7B /* ColorGeneratorHelper.swift */; };
+		5D86E8F12A280D4C004A3B7B /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86E8F02A280D4C004A3B7B /* UIColor+Hex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5D1E5EE62A27B29000BC4233 /* SoccerAppChallange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoccerAppChallange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D1E5EE92A27B29000BC4233 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D1E5EEB2A27B29000BC4233 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5D1E5EED2A27B29000BC4233 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5D1E5EF02A27B29000BC4233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5D1E5EF22A27B29300BC4233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D1E5EF52A27B29300BC4233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D1E5EF72A27B29300BC4233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D1E5F002A27B32400BC4233 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		5D1E5F082A27BCDB00BC4233 /* LeagueManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueManager.swift; sourceTree = "<group>"; };
+		5D1E5F0A2A27C7A300BC4233 /* Fixture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fixture.swift; sourceTree = "<group>"; };
+		5D86E8D32A27D066004A3B7B /* FixturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixturesViewController.swift; sourceTree = "<group>"; };
+		5D86E8D62A27D178004A3B7B /* TeamCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCell.swift; sourceTree = "<group>"; };
+		5D86E8D72A27D178004A3B7B /* TeamCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamCell.xib; sourceTree = "<group>"; };
+		5D86E8DA2A27D274004A3B7B /* FixtureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixtureCell.swift; sourceTree = "<group>"; };
+		5D86E8DB2A27D274004A3B7B /* FixtureCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FixtureCell.xib; sourceTree = "<group>"; };
+		5D86E8DE2A27D4E7004A3B7B /* ResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCell.swift; sourceTree = "<group>"; };
+		5D86E8DF2A27D4E7004A3B7B /* ResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultCell.xib; sourceTree = "<group>"; };
+		5D86E8E62A27DD38004A3B7B /* FixtureResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixtureResultsViewController.swift; sourceTree = "<group>"; };
+		5D86E8E82A27DE76004A3B7B /* LeagueResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueResultsViewController.swift; sourceTree = "<group>"; };
+		5D86E8EA2A27E115004A3B7B /* NameGeneratorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameGeneratorHelper.swift; sourceTree = "<group>"; };
+		5D86E8EE2A280D02004A3B7B /* ColorGeneratorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGeneratorHelper.swift; sourceTree = "<group>"; };
+		5D86E8F02A280D4C004A3B7B /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +86,91 @@
 			children = (
 				5D1E5EE92A27B29000BC4233 /* AppDelegate.swift */,
 				5D1E5EEB2A27B29000BC4233 /* SceneDelegate.swift */,
-				5D1E5EED2A27B29000BC4233 /* ViewController.swift */,
-				5D1E5EEF2A27B29000BC4233 /* Main.storyboard */,
-				5D1E5EF22A27B29300BC4233 /* Assets.xcassets */,
-				5D1E5EF42A27B29300BC4233 /* LaunchScreen.storyboard */,
+				5D86E8EC2A280CE5004A3B7B /* Managers */,
+				5D86E8ED2A280CF1004A3B7B /* Helpers */,
+				5D1E5EFF2A27B30A00BC4233 /* Models */,
+				5D1E5EFE2A27B2EB00BC4233 /* UI */,
+				5D86E8D02A27D03C004A3B7B /* ViewControllers */,
+				5D86E8F22A280E4F004A3B7B /* Extensions */,
+				5D1E5EFD2A27B2DF00BC4233 /* Resources */,
 				5D1E5EF72A27B29300BC4233 /* Info.plist */,
 			);
 			path = SoccerAppChallange;
+			sourceTree = "<group>";
+		};
+		5D1E5EFD2A27B2DF00BC4233 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5D1E5EF22A27B29300BC4233 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5D1E5EFE2A27B2EB00BC4233 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5D1E5EEF2A27B29000BC4233 /* Main.storyboard */,
+				5D1E5EF42A27B29300BC4233 /* LaunchScreen.storyboard */,
+				5D86E8D52A27D12D004A3B7B /* Cells */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5D1E5EFF2A27B30A00BC4233 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5D1E5F002A27B32400BC4233 /* Team.swift */,
+				5D1E5F0A2A27C7A300BC4233 /* Fixture.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5D86E8D02A27D03C004A3B7B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5D86E8E82A27DE76004A3B7B /* LeagueResultsViewController.swift */,
+				5D86E8D32A27D066004A3B7B /* FixturesViewController.swift */,
+				5D86E8E62A27DD38004A3B7B /* FixtureResultsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5D86E8D52A27D12D004A3B7B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5D86E8D62A27D178004A3B7B /* TeamCell.swift */,
+				5D86E8D72A27D178004A3B7B /* TeamCell.xib */,
+				5D86E8DA2A27D274004A3B7B /* FixtureCell.swift */,
+				5D86E8DB2A27D274004A3B7B /* FixtureCell.xib */,
+				5D86E8DE2A27D4E7004A3B7B /* ResultCell.swift */,
+				5D86E8DF2A27D4E7004A3B7B /* ResultCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5D86E8EC2A280CE5004A3B7B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				5D1E5F082A27BCDB00BC4233 /* LeagueManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		5D86E8ED2A280CF1004A3B7B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5D86E8EA2A27E115004A3B7B /* NameGeneratorHelper.swift */,
+				5D86E8EE2A280D02004A3B7B /* ColorGeneratorHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5D86E8F22A280E4F004A3B7B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5D86E8F02A280D4C004A3B7B /* UIColor+Hex.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +231,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D86E8DD2A27D274004A3B7B /* FixtureCell.xib in Resources */,
+				5D86E8D92A27D178004A3B7B /* TeamCell.xib in Resources */,
 				5D1E5EF62A27B29300BC4233 /* LaunchScreen.storyboard in Resources */,
 				5D1E5EF32A27B29300BC4233 /* Assets.xcassets in Resources */,
+				5D86E8E12A27D4E7004A3B7B /* ResultCell.xib in Resources */,
 				5D1E5EF12A27B29000BC4233 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +247,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D1E5EEE2A27B29000BC4233 /* ViewController.swift in Sources */,
+				5D86E8D42A27D066004A3B7B /* FixturesViewController.swift in Sources */,
+				5D1E5F012A27B32400BC4233 /* Team.swift in Sources */,
+				5D1E5F092A27BCDB00BC4233 /* LeagueManager.swift in Sources */,
+				5D86E8D82A27D178004A3B7B /* TeamCell.swift in Sources */,
+				5D86E8E92A27DE76004A3B7B /* LeagueResultsViewController.swift in Sources */,
+				5D1E5F0B2A27C7A300BC4233 /* Fixture.swift in Sources */,
 				5D1E5EEA2A27B29000BC4233 /* AppDelegate.swift in Sources */,
+				5D86E8F12A280D4C004A3B7B /* UIColor+Hex.swift in Sources */,
+				5D86E8DC2A27D274004A3B7B /* FixtureCell.swift in Sources */,
+				5D86E8E02A27D4E7004A3B7B /* ResultCell.swift in Sources */,
 				5D1E5EEC2A27B29000BC4233 /* SceneDelegate.swift in Sources */,
+				5D86E8EB2A27E115004A3B7B /* NameGeneratorHelper.swift in Sources */,
+				5D86E8EF2A280D02004A3B7B /* ColorGeneratorHelper.swift in Sources */,
+				5D86E8E72A27DD38004A3B7B /* FixtureResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

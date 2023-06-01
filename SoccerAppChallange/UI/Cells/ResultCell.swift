@@ -8,6 +8,7 @@
 import UIKit
 
 class ResultCell: UITableViewCell {
+    // MARK: PROPERTIES
     @IBOutlet weak var homeTeamLogo: UIImageView!
     @IBOutlet weak var homeTeamName: UILabel!
     @IBOutlet weak var homeTeamScore: UILabel!
@@ -19,7 +20,8 @@ class ResultCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
     }
-
+    
+    // MARK: - FUNCTIONS
     func set(fixture: Fixture) {
         homeTeamLogo.image = UIImage(systemName:"soccerball")
         homeTeamLogo.tintColor = UIColor.colorFromHexString(fixture.homeTeam.logo)
@@ -29,6 +31,7 @@ class ResultCell: UITableViewCell {
         awayTeamLogo.tintColor = UIColor.colorFromHexString(fixture.awayTeam.logo)
         awayTeamName.text = fixture.awayTeam.name
         awayTeamScore.text = "\(fixture.awayGoals)"
+        // determine which team is winner and show score with green color
         if !fixture.isDraw {
             fixture.isHomeTeamWinner ? (homeTeamScore.textColor = .green) : (awayTeamScore.textColor = .green)
         }

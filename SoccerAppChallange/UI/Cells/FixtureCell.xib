@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -36,17 +37,18 @@
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Home team" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G4U-8E-X9f">
                         <rect key="frame" x="68" y="10" width="269.66666666666669" height="68"/>
-                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Away Team" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="csb-Jf-Rdt">
                         <rect key="frame" x="393.33333333333326" y="10" width="269.66666666666674" height="68"/>
-                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 <constraints>
                     <constraint firstAttribute="trailing" secondItem="moX-A7-PEf" secondAttribute="trailing" constant="10" id="60X-6H-D8l"/>
                     <constraint firstItem="G4U-8E-X9f" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="6W1-sW-gVv"/>

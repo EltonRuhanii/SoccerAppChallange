@@ -7,12 +7,12 @@
 
 import Foundation
 
+/// This function is going to generate a random name for each team usign all alphabet characters
 class NameGeneratorHelper {
     class func generateRandomTeamName() -> String {
         let characters = "abcdefghijklmnopqrstuvwxyz"
-        let teamNameLength = Int.random(in: 3...3)
-        
-        var teamName = ""
+        let teamNameLength = Int.random(in: 3...5)
+        var teamName = "FC "
         
         let firstCharacterIndex = Int.random(in: 0..<characters.count)
         let firstCharacter = characters[characters.index(characters.startIndex, offsetBy: firstCharacterIndex)]

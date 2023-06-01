@@ -50,7 +50,7 @@ extension FixturesViewController:  UITableViewDataSource {
         
         let fixture = leagueManager.fixtures[indexPath.row]
         cell.set(fixture: fixture)
-
+        
         return cell
     }
 }

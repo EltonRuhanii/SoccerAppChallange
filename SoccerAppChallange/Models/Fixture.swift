@@ -16,14 +16,14 @@ class Fixture {
     var isDraw: Bool
     
     init(homeTeam: Team, awayTeam: Team, homeGoals: Int = 0, awayGoals: Int = 0, winner: Team? = nil) {
-            self.homeTeam = homeTeam
-            self.awayTeam = awayTeam
-            self.homeGoals = homeGoals
-            self.awayGoals = awayGoals
-            self.winner = winner
-            
-            isDraw = homeGoals == awayGoals
-        }
+        self.homeTeam = homeTeam
+        self.awayTeam = awayTeam
+        self.homeGoals = homeGoals
+        self.awayGoals = awayGoals
+        self.winner = winner
+        
+        isDraw = homeGoals == awayGoals
+    }
 }
 
 extension Fixture {

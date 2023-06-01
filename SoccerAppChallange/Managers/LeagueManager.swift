@@ -39,18 +39,18 @@ class LeagueManager {
     
     /// This function will create random fixtures. And the same fixture is gonna generate two times but second time it will be other way around
     func createLeagueFixtures() {
-            for i in 0..<teams.count {
-                let homeTeam = teams[i]
-
-                for j in (i + 1)..<teams.count {
-                    let awayTeam = teams[j]
-                    let fixture = Fixture(homeTeam: homeTeam, awayTeam: awayTeam)
-                    fixtures.append(fixture)
-                    
-                    let reverseFixture = Fixture(homeTeam: awayTeam, awayTeam: homeTeam)
-                    fixtures.append(reverseFixture)
-                }
+        for i in 0..<teams.count {
+            let homeTeam = teams[i]
+            
+            for j in (i + 1)..<teams.count {
+                let awayTeam = teams[j]
+                let fixture = Fixture(homeTeam: homeTeam, awayTeam: awayTeam)
+                fixtures.append(fixture)
+                
+                let reverseFixture = Fixture(homeTeam: awayTeam, awayTeam: homeTeam)
+                fixtures.append(reverseFixture)
             }
+        }
     }
     
     /// Result generator
@@ -92,7 +92,6 @@ class LeagueManager {
         completion()
     }
     
-    
     /// Will enable us to sort the team table by points at the end
     /// - Parameter completion: Will reload data on main screen, leagu table will be sorted by points.
     func sortLeagueTable(completion: @escaping ()->Void) {
@@ -110,6 +109,4 @@ extension LeagueManager {
     func isLeagueEnded() -> Bool {
         !fixtures.isEmpty
     }
-}
-
-
+}

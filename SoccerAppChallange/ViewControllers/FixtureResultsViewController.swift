@@ -35,8 +35,8 @@ class FixtureResultsViewController: UIViewController {
 extension FixtureResultsViewController:  UITableViewDataSource, UITableViewDelegate {
     func setupTableView() {
         tableView.register(UINib(nibName: resultCellIdentifier,
-                                      bundle: nil),
-                                forCellReuseIdentifier: resultCellIdentifier)
+                                 bundle: nil),
+                           forCellReuseIdentifier: resultCellIdentifier)
         
     }
     

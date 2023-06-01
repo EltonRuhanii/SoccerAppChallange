@@ -20,7 +20,7 @@ class ResultCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
     }
-
+    
     // MARK: - FUNCTIONS
     func set(fixture: Fixture) {
         homeTeamLogo.image = UIImage(systemName:"soccerball")

@@ -67,6 +67,7 @@ extension LeagueResultsViewController {
     func updateButtonTitle() {
         let isGenerateTeams = leagueManager.isLeagueEmpty() || leagueManager.isLeagueEnded()
         nextButton.setTitle(isGenerateTeams ? "Generate Teams" : "Generate Fixtures", for: .normal)
+        
         UIView.animate(withDuration: 1.5) {
             self.tableView.reloadData()
         }

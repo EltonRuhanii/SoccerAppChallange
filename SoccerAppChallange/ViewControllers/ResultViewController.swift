@@ -14,8 +14,6 @@ class ResultViewController: UIViewController {
     @IBOutlet weak var awayTeamLogo: UIImageView!
     @IBOutlet weak var awayTeamName: UILabel!
     @IBOutlet weak var awayTeamGoals: UILabel!
-    @IBOutlet weak var backButton: UIButton!
-    @IBOutlet weak var pitchViewHolder: UIView!
     @IBOutlet weak var teamsHolder: UIView!
     
     let leagueManager = LeagueManager.currentLeague
@@ -48,8 +46,6 @@ extension ResultViewController {
     }
     
     func setupUI() {
-        backButton.layer.cornerRadius = backButton.frame.width / 2
-        pitchViewHolder.layer.cornerRadius = 50
         teamsHolder.layer.cornerRadius = 22
     }
 }

@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 /// This function is going to generate a random name for each team usign all alphabet characters
 class NameGeneratorHelper {
     class func generateRandomTeamName() -> String {

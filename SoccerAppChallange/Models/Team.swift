@@ -29,7 +29,6 @@ class Team {
 }
 
 extension Team: Hashable {
-    // Calculate goal difference for listing it on end of leauge table
     var goalDifference: Int {
         goalScored - goalConceded
     }

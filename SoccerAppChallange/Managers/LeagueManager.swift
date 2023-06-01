@@ -18,6 +18,8 @@ class LeagueManager {
     private init() { }
     
     // MARK: - FUNCTIONS
+    /// This function will create random name teams, and it will be used then to generate fixtures, Each team will have it's own atributes: Team Name, Points, Goal Scored, Goal Conceded and logo.
+    /// - Parameter count: count will be used to set the number of teams we want to generate
     func generateTeams(count: Int) {
         teams = []
         fixtures = []
@@ -35,9 +37,8 @@ class LeagueManager {
         teams = teams.sorted(by: {$0.name < $1.name})
     }
     
+    /// This function will create random fixtures. And the same fixture is gonna generate two times but second time it will be other way around
     func createLeagueFixtures() {
-        let totalMatches = teams.count - 1
-
             for i in 0..<teams.count {
                 let homeTeam = teams[i]
 
@@ -53,7 +54,8 @@ class LeagueManager {
     }
     
     /// Result generator
-    /// - This function will generate a random score for each team and detrimne the winner. Also will give winner team 3 points, if its a draw will give both teams 1 points, and loser gets 0 points.
+    /// - This function will generate a random score for each team and detrimne the winner. Also will give winner team 3 points, if its a draw will give both teams 1 points, and loser gets 0
+    /// - Parameter completion: shows all game results when completed
     func generateResults(completion: @escaping ()->Void) {
         for fixture in fixtures {
             let homeGoals = Int.random(in: 0...5)
@@ -90,6 +92,9 @@ class LeagueManager {
         completion()
     }
     
+    
+    /// Will enable us to sort the team table by points at the end
+    /// - Parameter completion: Will reload data on main screen, leagu table will be sorted by points.
     func sortLeagueTable(completion: @escaping ()->Void) {
         teams = teams.sorted(by: {$0.points > $1.points})
         completion()

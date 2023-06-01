@@ -37,6 +37,7 @@ extension FixtureResultsViewController:  UITableViewDataSource, UITableViewDeleg
         tableView.register(UINib(nibName: resultCellIdentifier,
                                       bundle: nil),
                                 forCellReuseIdentifier: resultCellIdentifier)
+        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

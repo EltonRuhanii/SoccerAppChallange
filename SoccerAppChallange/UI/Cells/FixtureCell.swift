@@ -8,6 +8,7 @@
 import UIKit
 
 class FixtureCell: UITableViewCell {
+    // MARK: PROPERTIES
     @IBOutlet weak var homeTeamLogo: UIImageView!
     @IBOutlet weak var homeTeamName: UILabel!
     @IBOutlet weak var awayTeamLogo: UIImageView!
@@ -17,6 +18,7 @@ class FixtureCell: UITableViewCell {
         super.awakeFromNib()
     }
     
+    // MARK: FUNCTIONS
     func set(fixture: Fixture) {
         homeTeamLogo.image = UIImage(systemName:"soccerball")
         homeTeamLogo.tintColor = UIColor.colorFromHexString(fixture.homeTeam.logo)

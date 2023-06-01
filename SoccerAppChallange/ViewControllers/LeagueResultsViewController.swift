@@ -45,6 +45,7 @@ extension LeagueResultsViewController:  UITableViewDataSource {
         tableView.register(UINib(nibName: teamCellIdentifier,
                                  bundle: nil),
                            forCellReuseIdentifier: teamCellIdentifier)
+        tableView.backgroundColor = UIColor.clear
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

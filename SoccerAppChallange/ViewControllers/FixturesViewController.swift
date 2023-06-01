@@ -37,6 +37,7 @@ extension FixturesViewController:  UITableViewDataSource {
         tableView.register(UINib(nibName: fixtureCellIdentifier,
                                  bundle: nil),
                            forCellReuseIdentifier: fixtureCellIdentifier)
+        tableView.backgroundColor = UIColor.clear
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

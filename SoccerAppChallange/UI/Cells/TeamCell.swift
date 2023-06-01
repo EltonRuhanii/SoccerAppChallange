@@ -8,6 +8,7 @@
 import UIKit
 
 class TeamCell: UITableViewCell {
+    // MARK: PROPERTIES
     @IBOutlet weak var teamRanking: UILabel!
     @IBOutlet weak var teamLogo: UIImageView!
     @IBOutlet weak var teamName: UILabel!
@@ -18,6 +19,7 @@ class TeamCell: UITableViewCell {
         super.awakeFromNib()
     }
     
+    // MARK: - FUNCTIONS
     func set(team: Team, index: Int) {
         teamRanking.text = "\(index)"
         teamName.text = team.name
